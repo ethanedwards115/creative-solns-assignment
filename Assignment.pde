@@ -13,6 +13,9 @@ void setup(){
 void draw(){
 
   // Add parts of the car to draw
+  drawBody();
+  drawWindows();
+  drawWheels();
   
 }
 
