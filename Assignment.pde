@@ -2,8 +2,9 @@
 // Ethan Edwards
 // 17/09/2019 - TBD
 
-int carX;
-int carY;
+int CAR_X = 20;
+int CAR_Y = 300;
+int SPEED = 20;
 
 void setup(){
   size(600,600);
@@ -23,8 +24,7 @@ void draw(){
 // Car body
 void drawBody(){
 
-  // Find a nice fill colour
-  // USE carX and carY
+  fill(255, 0 , 50);
 
 }
 
