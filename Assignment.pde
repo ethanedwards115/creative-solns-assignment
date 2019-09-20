@@ -3,8 +3,8 @@
 // 17/09/2019 - TBD
 
 int CAR_X = 20;
-int CAR_Y = 300;
-int SPEED = 20;
+int CAR_Y = 400;
+int SPEED = 2;
 
 void setup(){
   size(600,600);
@@ -15,6 +15,7 @@ void draw(){
 
   // Add parts of the car to draw
   drawBody();
+  drawTop();
   drawWindows();
   drawWheels();
   
@@ -23,9 +24,14 @@ void draw(){
 
 // Car body
 void drawBody(){
+  
+  noStroke();
+  fill(50, 255, 0); // Car colour
+}
 
-  fill(255, 0 , 50);
+void drawTop(){
 
+  // use carX and carY
 }
 
 // Car windows
